@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #e4ebf0;
+}
+
+.logo {
+    width: 6rem;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+}
+
+nav {
+    margin-right: 1rem;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    background-color: #4180ab;
+}
+
+.encabezado h1 {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.encabezado h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.encabezado h1 a:hover {
+    color: #24a7ff;
+}
+
+main {
+    background-image: url(./images/fondo1.png);
+    background-repeat: no-repeat;
+}
+
+.loupe {
+    margin-top: 0.5rem;
+}
+
+.carta {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    box-shadow: -5px -5px 57px -17px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -5px -5px 57px -17px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -5px -5px 57px -17px rgba(0, 0, 0, 0.65);
+}
+
+.alto-img {
+    height: 14rem;
+    object-fit: cover
+}
+
+.price {
+    margin-right: 1.5rem;
+}
+
+footer {
+    padding: 30px 20px;
+    width: 100%;
+    background-color: #bdd1de;
+    margin-top: auto;
+}
+
+.redes {
+    margin-right: 1.5rem;
+}
+
+.contact {
+    width: 40%;
+    height: auto;
+    padding: 2rem;
+    border: 3px solid #8ab3cf;
+    background-color: #e4ebf0;
+    border-radius: 5%;
+    box-shadow: 16px 16px 81px -19px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 16px 16px 81px -19px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 16px 16px 81px -19px rgba(0, 0, 0, 0.65);
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 2500px) {
+    .contact {
+        width: 30%;
+        height: auto;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .contact {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .contact {
+        width: 80%;
+        height: auto;
+    }
+}
+
+.container-horizontal-card {
+    margin: 5% 20%;
+}
+
+.container-table {
+    margin: 5% 10%;
+}
+
+.table-head {
+    background-color: #4f86aa;
+    color: white;
+}
+
+.table-caption {
+    background-color: #dcf1ff;
+}
+
+td {
+    padding: 2px;
+}
+
+.table-body tr:hover {
+    background-color: #eff8fc;
+}
